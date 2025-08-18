@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slots Game Mockup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/favicon.png">
+  </head>
+
+  <body class="blue">
+    <nav class="topbar">
+      <div class="multipliers">
+        <abbr title="Normal Multiplier"><button class="selected one-multiplier multiplier-btns">X1</button></abbr>
+        <abbr title="X10 Multiplier (1 Jackpot)"><button disabled class="ten-multiplier multiplier-btns">X10</button></abbr>
+        <abbr title="X100 Multiplier (10 Jackpots)"><button disabled class="hundred-multiplier multiplier-btns">X100</button></abbr>
+        <abbr title="X1000 Multiplier (100 Jackpots)"><button disabled class="thousand-multiplier multiplier-btns">X1000</button></abbr>
+      </div>
+
+      <div>
+        <abbr title="View Achievements"><button class="achievements-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-160q75 0 127.5-52.5T660-340q0-75-52.5-127.5T480-520q-75 0-127.5 52.5T300-340q0 75 52.5 127.5T480-160ZM363-572q20-11 42.5-17.5T451-598L350-800H250l113 228Zm234 0 114-228H610l-85 170 19 38q14 4 27 8.5t26 11.5ZM256-208q-17-29-26.5-62.5T220-340q0-36 9.5-69.5T256-472q-42 14-69 49.5T160-340q0 47 27 82.5t69 49.5Zm448 0q42-14 69-49.5t27-82.5q0-47-27-82.5T704-472q17 29 26.5 62.5T740-340q0 36-9.5 69.5T704-208ZM480-80q-40 0-76.5-11.5T336-123q-9 2-18 2.5t-19 .5q-91 0-155-64T80-339q0-87 58-149t143-69L120-880h280l80 160 80-160h280L680-559q85 8 142.5 70T880-340q0 92-64 156t-156 64q-9 0-18.5-.5T623-123q-31 20-67 31.5T480-80Zm0-260ZM363-572 250-800l113 228Zm234 0 114-228-114 228ZM406-230l28-91-74-53h91l29-96 29 96h91l-74 53 28 91-74-56-74 56Z"/></svg>
+          </button></abbr>
+      </div>
+    </nav>
+
+    <div class="achievements">
+
+    </div>
+
+    <div class="sidebar">
+      <abbr title="Auto Spin (1 Two Pair)"><button disabled class="auto-spin-btn sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m320-410 79-110h170L320-716v306ZM551-80 406-392 240-160v-720l560 440H516l144 309-109 51ZM399-520Z"/></svg>
+      </button></abbr>
+    
+      <abbr title="Upgrades (5 Two Pairs)"><button disabled class="upgrades-btn sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M280-160v-80h400v80H280Zm160-160v-327L336-544l-56-56 200-200 200 200-56 56-104-103v327h-80Z"/></svg>
+      </button></abbr>
+    
+      <abbr title="Themes (10 Two Pairs)"><button disabled class="themes-btn sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M440-80q-33 0-56.5-23.5T360-160v-160H240q-33 0-56.5-23.5T160-400v-280q0-66 47-113t113-47h480v440q0 33-23.5 56.5T720-320H600v160q0 33-23.5 56.5T520-80h-80ZM240-560h480v-200h-40v160h-80v-160h-40v80h-80v-80H320q-33 0-56.5 23.5T240-680v120Zm0 160h480v-80H240v80Zm0 0v-80 80Z"/></svg>
+      </button></abbr>
+    
+      <abbr title="Businesses (20 Two Pairs)"><button disabled class="businesses-btn sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-120q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720h160v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h160q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160Zm0-80h640v-440H160v440Zm240-520h160v-80H400v80ZM160-200v-440 440Z"/></svg>
+      </button></abbr>
+    
+      <abbr title="Loans (50 Two Pairs)"><button disabled class="loans-btn sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M336-120q-91 0-153.5-62.5T120-336q0-38 13-74t37-65l142-171-97-194h530l-97 194 142 171q24 29 37 65t13 74q0 91-63 153.5T624-120H336Zm144-200q-33 0-56.5-23.5T400-400q0-33 23.5-56.5T480-480q33 0 56.5 23.5T560-400q0 33-23.5 56.5T480-320Zm-95-360h190l40-80H345l40 80Zm-49 480h288q57 0 96.5-39.5T760-336q0-24-8.5-46.5T728-423L581-600H380L232-424q-15 18-23.5 41t-8.5 47q0 57 39.5 96.5T336-200Z"/></svg>
+      </button></abbr>
+    
+      <abbr title="Lootboxes (75 Two Pairs)"><button disabled class="lootbox-btn sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M440-183v-274L200-596v274l240 139Zm80 0 240-139v-274L520-457v274Zm-80 92L160-252q-19-11-29.5-29T120-321v-318q0-22 10.5-40t29.5-29l280-161q19-11 40-11t40 11l280 161q19 11 29.5 29t10.5 40v318q0 22-10.5 40T800-252L520-91q-19 11-40 11t-40-11Zm200-528 77-44-237-137-78 45 238 136Zm-160 93 78-45-237-137-78 45 237 137Z"/></svg>
+      </button></abbr>
+    
+      <abbr title="Trophies (100 Two Pairs)"><button disabled class="trophys-btn sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M280-120v-80h160v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80v-80h400v80h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h160v80H280Zm0-408v-152h-80v40q0 38 22 68.5t58 43.5Zm200 128q50 0 85-35t35-85v-240H360v240q0 50 35 85t85 35Zm200-128q36-13 58-43.5t22-68.5v-40h-80v152Zm-200-52Z"/></svg>
+      </button></abbr>
+    
+      <abbr title="Prestige (250 Two Pairs)"><button disabled class="prestiege-btn sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m363-310 117-71 117 71-31-133 104-90-137-11-53-126-53 126-137 11 104 90-31 133ZM480-28 346-160H160v-186L28-480l132-134v-186h186l134-132 134 132h186v186l132 134-132 134v186H614L480-28Zm0-112 100-100h140v-140l100-100-100-100v-140H580L480-820 380-720H240v140L140-480l100 100v140h140l100 100Zm0-340Z"/></svg>
+      </button></abbr>
+    
+      <abbr title="Stats"><button class="stats-btn sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-360v-80h400v80H160Zm0-160v-80h640v80H160Z"/></svg>
+      </button></abbr>
+    
+      <abbr title="Settings"><button class="settings-btn sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"/></svg>
+      </button></abbr>
+    </div>
+
+    <div class="sidebar-divs">
+      <div class="auto-spin sidebar-div">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"fill="#e8eaed"><path d="m320-410 79-110h170L320-716v306ZM551-80 406-392 240-160v-720l560 440H516l144 309-109 51ZM399-520Z"/></svg>
+      </div>
+      <div class="upgrades sidebar-div">
+        <h1 class="close">X</h1>
+        <h1>Upgrades</h1>
+        <div>
+
+        </div>
+      </div>
+      <div class="themes sidebar-div">
+        <h1 class="close">X</h1>
+        <h1>Themes</h1>
+        <div>
+
+        </div>
+      </div>
+      <div class="businesses sidebar-div">
+        <h1 class="close">X</h1>
+        <h1>Businesses</h1>
+        <div>
+
+        </div>
+      </div>
+      <div class="loans sidebar-div">
+        <h1 class="close">X</h1>
+        <h1>Loans</h1>
+        <div>
+
+        </div>
+      </div>
+      <div class="lootbox sidebar-div">
+        <h1 class="close">X</h1>
+        <h1>Lootbox</h1>
+        <div>
+
+        </div>
+      </div>
+      <div class="trophys sidebar-div">
+        <h1 class="close">X</h1>
+        <h1>Trophies</h1>
+        <div>
+
+        </div>
+      </div>
+      <div class="prestiege sidebar-div">
+        <h1 class="close">X</h1>
+        <h1>Prestiege</h1>
+        <div>
+
+        </div>
+      </div>
+      <div class="stats sidebar-div">
+        <h1 class="close">X</h1>
+        <h1>Stats</h1>
+        <div>
+
+        </div>
+      </div>
+      <div class="settings sidebar-div">
+        <h1 class="close">X</h1>
+        <h1>Settings</h1>
+        <div>
+          <button class="mute button teritry">Mute</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="tutorial">
+      <h1 class="close-tutorial">X</h1>
+      <p>Welcome to Slots City! To start, click the handle to spin!</p>
+      <button class="next-tutorial">Next</button>
+    </div>
+    <div class="tutorial-start">
+      <abbr title="Tutorial">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M424-320q0-81 14.5-116.5T500-514q41-36 62.5-62.5T584-637q0-41-27.5-68T480-732q-51 0-77.5 31T365-638l-103-44q21-64 77-111t141-47q105 0 161.5 58.5T698-641q0 50-21.5 85.5T609-475q-49 47-59.5 71.5T539-320H424Zm56 240q-33 0-56.5-23.5T400-160q0-33 23.5-56.5T480-240q33 0 56.5 23.5T560-160q0 33-23.5 56.5T480-80Z"/></svg>
+      </abbr>
+    </div>
+
+    <div class="slot-handle"></div>
+    <div class="one slot-machine-holder">
+      <div class="slot-display">
+        <h1 class="slot-one">7️⃣</h1>
+        <h1 class="slot-two">7️⃣</h1>
+        <h1 class="slot-three">7️⃣</h1>
+      </div>
+      <div class="slots-stats">
+        <h3 class="terminal">Spin to Win!</h3>
+        <h3 class="money">Money: $5,000.00</h3>
+        <h3 class="spin-cost">Spin Cost: $10.00</h3>
+      </div>
+    </div>
+
+    <div class="game-over-screen with-loan">
+      <h1>Game Over</h1>
+      <h3>You have failed to repay your loan</h3>
+      <h3>Refresh to try again.</h3>
+    </div>
+    <div class="game-over-screen without-loan">
+      <h1>Game Over</h1>
+      <h3>You have run out of money</h3>
+      <h3>Refresh to try again or take a loan.</h3>
+      <button class="take-loan button">Take Loan</button>
+    </div>
+    <div class="game-over-screen game-won">
+      <h1>You win!</h1>
+      <h3>You got all the upgrades!</h3>
+      <h3>You got all the themes!</h3>
+      <h3>You got all the businesses!</h3>
+      <h3>And you unlocked Multipliers!</h3>
+      <button class="continue button">Continue Playing</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
