@@ -7,27 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./assets/favicon.png">
   </head>
-
   <body class="blue">
-    <nav class="topbar">
-      <div class="multipliers">
-        <abbr title="Normal Multiplier"><button class="selected one-multiplier multiplier-btns">X1</button></abbr>
-        <abbr title="X10 Multiplier (1 Jackpot)"><button disabled class="ten-multiplier multiplier-btns">X10</button></abbr>
-        <abbr title="X100 Multiplier (10 Jackpots)"><button disabled class="hundred-multiplier multiplier-btns">X100</button></abbr>
-        <abbr title="X1000 Multiplier (100 Jackpots)"><button disabled class="thousand-multiplier multiplier-btns">X1000</button></abbr>
-      </div>
-
-      <div>
-        <abbr title="View Achievements"><button class="achievements-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-160q75 0 127.5-52.5T660-340q0-75-52.5-127.5T480-520q-75 0-127.5 52.5T300-340q0 75 52.5 127.5T480-160ZM363-572q20-11 42.5-17.5T451-598L350-800H250l113 228Zm234 0 114-228H610l-85 170 19 38q14 4 27 8.5t26 11.5ZM256-208q-17-29-26.5-62.5T220-340q0-36 9.5-69.5T256-472q-42 14-69 49.5T160-340q0 47 27 82.5t69 49.5Zm448 0q42-14 69-49.5t27-82.5q0-47-27-82.5T704-472q17 29 26.5 62.5T740-340q0 36-9.5 69.5T704-208ZM480-80q-40 0-76.5-11.5T336-123q-9 2-18 2.5t-19 .5q-91 0-155-64T80-339q0-87 58-149t143-69L120-880h280l80 160 80-160h280L680-559q85 8 142.5 70T880-340q0 92-64 156t-156 64q-9 0-18.5-.5T623-123q-31 20-67 31.5T480-80Zm0-260ZM363-572 250-800l113 228Zm234 0 114-228-114 228ZM406-230l28-91-74-53h91l29-96 29 96h91l-74 53 28 91-74-56-74 56Z"/></svg>
-          </button></abbr>
-      </div>
-    </nav>
-
-    <div class="achievements">
-
-    </div>
-
     <div class="sidebar">
       <abbr title="Auto Spin (1 Two Pair)"><button disabled class="auto-spin-btn sidebar-btn">
         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m320-410 79-110h170L320-716v306ZM551-80 406-392 240-160v-720l560 440H516l144 309-109 51ZM399-520Z"/></svg>
@@ -70,6 +50,21 @@
       </button></abbr>
     </div>
 
+    <nav class="topbar">
+      <div class="multipliers">
+        <abbr title="Normal Multiplier"><button class="selected one-multiplier multiplier-btns">X1</button></abbr>
+        <abbr title="X10 Multiplier (1 Jackpot)"><button disabled class="ten-multiplier multiplier-btns">X10</button></abbr>
+        <abbr title="X100 Multiplier (10 Jackpots)"><button disabled class="hundred-multiplier multiplier-btns">X100</button></abbr>
+        <abbr title="X1000 Multiplier (100 Jackpots)"><button disabled class="thousand-multiplier multiplier-btns">X1000</button></abbr>
+      </div>
+
+      <div>
+        <abbr title="View Achievements"><button class="achievements-btn sidebar-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-160q75 0 127.5-52.5T660-340q0-75-52.5-127.5T480-520q-75 0-127.5 52.5T300-340q0 75 52.5 127.5T480-160ZM363-572q20-11 42.5-17.5T451-598L350-800H250l113 228Zm234 0 114-228H610l-85 170 19 38q14 4 27 8.5t26 11.5ZM256-208q-17-29-26.5-62.5T220-340q0-36 9.5-69.5T256-472q-42 14-69 49.5T160-340q0 47 27 82.5t69 49.5Zm448 0q42-14 69-49.5t27-82.5q0-47-27-82.5T704-472q17 29 26.5 62.5T740-340q0 36-9.5 69.5T704-208ZM480-80q-40 0-76.5-11.5T336-123q-9 2-18 2.5t-19 .5q-91 0-155-64T80-339q0-87 58-149t143-69L120-880h280l80 160 80-160h280L680-559q85 8 142.5 70T880-340q0 92-64 156t-156 64q-9 0-18.5-.5T623-123q-31 20-67 31.5T480-80Zm0-260ZM363-572 250-800l113 228Zm234 0 114-228-114 228ZM406-230l28-91-74-53h91l29-96 29 96h91l-74 53 28 91-74-56-74 56Z"/></svg>
+          </button></abbr>
+      </div>
+    </nav>
+
     <div class="sidebar-divs">
       <div class="auto-spin sidebar-div">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"fill="#e8eaed"><path d="m320-410 79-110h170L320-716v306ZM551-80 406-392 240-160v-720l560 440H516l144 309-109 51ZM399-520Z"/></svg>
@@ -78,34 +73,90 @@
         <h1 class="close">X</h1>
         <h1>Upgrades</h1>
         <div>
-
+          <div class="box upgrade-container">
+            <h1>Upgrade Slot Luck</h1>
+            <h3>Level <span class="level">0 -> 1</span></h3>
+            <button class="upgrade button">$500</button>
+          </div>
+          <div class="box upgrade-container">
+            <h1>Upgrade Income</h1>
+            <h3>Level <span class="level">0 -> 1</span></h3>
+            <button class="upgrade button">$400</button>
+          </div>
+          <div class="box upgrade-container">
+            <h1>Upgrade Spin Bonus</h1>
+            <h3>Level <span class="level">0 -> 1</span></h3>
+            <button class="upgrade button">$300</button>
+          </div>
         </div>
       </div>
       <div class="themes sidebar-div">
         <h1 class="close">X</h1>
         <h1>Themes</h1>
         <div>
+          <div class="theme-box black"><span>Use</span></div>
+          <div class="theme-box white"><span>Use</span></div>
+          <div class="theme-box red"><span>Use</span></div>
+          <div class="theme-box orange"><span>Use</span></div>
+          <div class="theme-box yellow"><span>Use</span></div>
+          <div class="theme-box green"><span>Use</span></div>
+          <div class="theme-box blue selected"><span>Selected</span></div>
+          <div class="theme-box purple"><span>Use</span></div>
 
+          <div class="theme-box color-a"><span>$1,000</span></div>
+          <div class="theme-box color-b"><span>$1,000</span></div>
+          <div class="theme-box color-c"><span>$1,000</span></div>
+          <div class="theme-box color-d"><span>$1,000</span></div>
+
+          <div class="theme-box red-to-purple"><span>$5,000</span></div>
+          <div class="theme-box teal-to-blue"><span>$5,000</span></div>
+          <div class="theme-box forest-to-green"><span>$5,000</span></div>
+
+          <div class="theme-box good-theme-a"><span>$10,000</span></div>
+          <div class="theme-box good-theme-b"><span>$10,000</span></div>
+
+          <div class="theme-box horizen"><span>$25,000</span></div>
+          <div class="theme-box sunset"><span>$50,000</span></div>
+          <div class="theme-box stary-night"><span>$100,000</span></div>
+
+          <div class="theme-box cyberpunk"><span>$250,000</span></div>
+          <div class="theme-box neon"><span>$500,000</span></div>
+
+          <div class="theme-box lb-bg-one"><span>Lootbox Reward</span></div>
+          <div class="theme-box lb-bg-two"><span>Lootbox Reward</span></div>
+          <div class="theme-box lb-bg-three"><span>Lootbox Reward</span></div>
+          <div class="theme-box lb-bg-four"><span>Lootbox Reward</span></div>
+          <div class="theme-box lb-bg-five"><span>Lootbox Reward</span></div>
         </div>
       </div>
       <div class="businesses sidebar-div">
         <h1 class="close">X</h1>
         <h1>Businesses</h1>
         <div>
+          <h1>Feature Not Avalile Yet.</h1>
 
         </div>
       </div>
       <div class="loans sidebar-div">
         <h1 class="close">X</h1>
         <h1>Loans</h1>
-        <div>
-
+        <div class="loan-stuff">
+          <div>
+            <button class="button primary take-loan">Take Loan</button>
+            <button disabled class="button secondary pay-loan">Pay Back Loan</button>
+          </div>
+          <div>
+            <h3>Loan Amount: $500.00</h3>
+            <h3>Repayment: $<abbr title="Repayment can NOT be over $1,000.00" class="repayment">0.00</abbr></h3>
+            <h3>Intrest Rate: +$5.00/Spin</h3>
+          </div>
         </div>
       </div>
       <div class="lootbox sidebar-div">
         <h1 class="close">X</h1>
         <h1>Lootbox</h1>
         <div>
+          <h1>Feature Not Avalile Yet.</h1>
 
         </div>
       </div>
@@ -113,21 +164,69 @@
         <h1 class="close">X</h1>
         <h1>Trophies</h1>
         <div>
-
+          <div class="box trophy-box">
+            <h2>$10,000</h2>
+            <h1>🪙</h1>
+            <button class="button buy-trophy secondary">Buy</button>
+          </div>
+          <div class="box trophy-box">
+            <h2>$100,000</h2>
+            <h1>💰</h1>
+            <button class="button buy-trophy secondary">Buy</button>
+          </div>
+          <div class="box trophy-box">
+            <h2>$1,000,000</h2>
+            <h1>💎</h1>
+            <button class="button buy-trophy secondary">Buy</button>
+          </div>
+          <div class="box trophy-box">
+            <h2>$10,000,000</h2>
+            <h1>👑</h1>
+            <button class="button buy-trophy secondary">Buy</button>
+          </div>
+          <div class="box trophy-box">
+            <h2>$100,000,000</h2>
+            <h1>⭐</h1>
+            <button class="button buy-trophy secondary">Buy</button>
+          </div>
+          <div class="box trophy-box">
+            <h2>$1,000,000,000</h2>
+            <h1>🌟</h1>
+            <button class="button buy-trophy secondary">Buy</button>
+          </div>
+          <div class="box trophy-box">
+            <h2>$10,000,000,000</h2>
+            <h1>🏆</h1>
+            <button class="button buy-trophy secondary">Buy</button>
+          </div>
         </div>
       </div>
       <div class="prestiege sidebar-div">
         <h1 class="close">X</h1>
         <h1>Prestiege</h1>
         <div>
+          <h1>Feature Not Avalile Yet.</h1>
 
         </div>
       </div>
       <div class="stats sidebar-div">
         <h1 class="close">X</h1>
         <h1>Stats</h1>
-        <div>
-
+        <div class="stats-container">
+          <div class="main-stats">
+            <h3>Total Spins: <span class="spins">0</span></h3>
+            <h3>Total Two Pairs: <span class="two-pairs">0</span> (<span class="actual-two-pairs">0</span>)</h3>
+            <h3>Total Jackpots: <span class="jackpots">0</span> (<span class="actual-jackpots">0</span>)</h3>
+            <h3>Achievements Unlocked: <span class="achievements-unlocked">0</span>/???</h3>
+            <h3>Total Prestiges: <span class="total-prestieges">0</span></h3>
+          </div>
+          <div class="upgrade-stats">
+            <h3>Luck Percentage: <span class="luck">0</span>%</h3>
+            <h3>Prizes: $<span class="two-pair-prize">20.00</span>, $<span class="jackpot-prize">500.00</span></h3>
+            <h3>Spin Bonus: +$<span class="spin-bonus">0.00</span></h3>
+            <h3>Businesses Bonus: +$<span class="business-bonu">0.00</span></h3>
+            <h3>Prestige Multiplier: X<span class="prestige-multiplier">1</span></h3>
+          </div>
         </div>
       </div>
       <div class="settings sidebar-div">
@@ -135,7 +234,64 @@
         <h1>Settings</h1>
         <div>
           <button class="mute button teritry">Mute</button>
+          <button class="button teritry advanced-mute">Advanced SFX Options</button>
+          <button disabled class="button tertitry save">Save</button>
+          <button disabled class="save-to-file button teritry">Save to File</button>
+          <button disabled class="load-from-file button teritry">Load from File</button>
+          <button disabled class="restart button teritry">Restart</button>
+          <div class="advanced-mute-div">
+            <h3>Mute Specific Sounds</h3>
+            <button class="close-mute-btn button">X</button>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="spin"> Spin Lever Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="jackpot"> Jackpot Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="twoPair"> Two Pair Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="spinning"> Spinning Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="slotLoad"> Slot Loading Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="win"> Winning Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="lose"> Losing Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="click"> Clicking Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="upgrade"> Upgrading Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="background"> Buying Backgrounds Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="trophy"> Buying Trophies Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="takeLoan"> Taking Loan Sound
+            </label>
+            <label>
+              <input type="checkbox" checked class="sound-checkbox" data-sound="payLoan"> Paying Loan Sound
+            </label>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <div class="achievements sidebar-div">
+      <h1 class="close">X</h1>
+      <h1>Achievements</h1>
+      <div>
+        <h1>Feature Not Avalile Yet.</h1>
+
       </div>
     </div>
 
@@ -166,14 +322,14 @@
 
     <div class="game-over-screen with-loan">
       <h1>Game Over</h1>
-      <h3>You have failed to repay your loan</h3>
+      <h3>You have run out of money and cannot/failed to take/repay you loan.</h3>
       <h3>Refresh to try again.</h3>
     </div>
     <div class="game-over-screen without-loan">
       <h1>Game Over</h1>
       <h3>You have run out of money</h3>
       <h3>Refresh to try again or take a loan.</h3>
-      <button class="take-loan button">Take Loan</button>
+      <button class="take-loan-game-over button">Take Loan</button>
     </div>
     <div class="game-over-screen game-won">
       <h1>You win!</h1>
